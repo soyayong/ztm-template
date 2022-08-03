@@ -1,10 +1,18 @@
 <template>
-  <div class="flex h-screen bg-slate-600 h-[100vh] align-middle text-white text-center">
-    <div class="m-auto">
-      <h1 class="text-5xl">Welcome to Zero to Marketing!</h1>
-      <h3 class="text-5xl">I'm Yong Zong Wei</h3>
-      <p class="mt-5">Start from 2018 and enjoy cycling with my road bike -- 享受骑公路自行车的快感</p>
-      <img src="https://filedn.com/lzQz4YwK2qQSa8Al3y8Jwsk/Resume%20Image/cycling.jpg" alt="cycling" width="600" height="500">
+  <div id="header" class="bg-[url('/hero-bg.jpg')] px-20">
+    <div id="menu" class="grid grid-cols-2 py-5">
+      <div id="menu-left">
+        <img src="logo.png" class="w-[150px]" alt="" />
+      </div>
+
+      <div id="menu-right">
+        <ul class="grid grid-cols-4 text-lg front-oswald text-white uppercase pt-5">
+          <li>About Us</li>
+          <li>Our Menu</li>
+          <li>Locations</li>
+          <li>Contacts</li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
