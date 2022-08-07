@@ -7,7 +7,7 @@
         </div>
 
         <div id="menu-right">
-          <ul class="grid grid-cols-4 text-lg front-oswald text-white uppercase pt-5">
+          <ul class="grid grid-cols-4 text-lg font-oswald text-white uppercase pt-5">
             <li>About Us</li>
             <li>Our Menu</li>
             <li>Locations</li>
