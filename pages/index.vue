@@ -155,6 +155,59 @@
           />
         </div>
       </div>
+
+      <div
+        class="grid grid-cols-12 font-oswald uppercase text-4xl
+        text-yellow-800 px-40 gap-5"
+      >
+        <div
+          class="col-span-5 bg-cover bg-center bg-[url('/fries-bg-1.jpg')]
+          text-right pr-10 pt-10"
+        >
+          <h4>
+            Get your
+            <br />
+            free
+          </h4>
+          <h4>
+            Cheese
+            <br />
+            Fries
+          </h4>
+          <button
+            class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5 mb-5"
+          >
+          Clain now
+          </button>
+        </div>
+
+        <div
+          class="col-span-7 bg-cover bg-center bg-[url('/burger-bg-1.jpg')]
+          text-right pr-10 pt-10"
+        >
+          <h4>
+            Crispy
+            <br />
+            Chicken
+          </h4>
+          <h4>
+            Burger
+            <br />
+            is back!
+            </h4>
+          <button
+            class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5 mb-5"
+          >
+          Clain now
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 px-40 mt-5 gap-5">
+        <img src="offer-1.jpg" alt="" />
+        <img src="offer-2.jpg" alt="" />
+        <img src="offer-3.jpg" alt="" />
+      </div>
     </div>
   </div>
 </template>
