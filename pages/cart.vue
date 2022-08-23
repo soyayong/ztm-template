@@ -57,21 +57,23 @@
                     <td class="text-right">RM {{ total.toFixed(2) }}</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr colspan="3">
-                    <input
-                        id="email"
-                        type="email"
-                        placeholder="Please enter your email"
-                        class="w-full border border-gray-300 text-xl mt-5 py-3 px-2"
-                    />
-                </tr>
-                <tr colspan="2" class="text-right">
-                    <button
-                        class="font-oswald uppercase bg-red-500 text-white text-xl py-3 px-2 m1-5 mt-5"
-                        @click="sumbitOrder"
-                    >
-                        Confirm My Order
-                    </button>
+                <tr>
+                    <td colspan="3">
+                        <input
+                            id="email"
+                            type="email"
+                            placeholder="Please enter your email"
+                            class="w-full border border-gray-300 text-xl mt-5 py-3 px-2"
+                        />
+                    </td>
+                    <td colspan="2" class="text-right">
+                        <button
+                            class="font-oswald uppercase bg-red-500 text-white text-xl py-3 px-2 m1-5 mt-5"
+                            @click="sumbitOrder"
+                        >
+                            Confirm My Order
+                        </button>
+                    </td>
                 </tr>
             </tfoot>
         </table>
