@@ -13,7 +13,7 @@ exports.handler = async function (event, context) {
 
   const db = getFirestore(app);
 
-  try{
+  try {
     const body = JSON.parse(event.body);
     const customerEmail = body.email;
     const orders = body.orders;
@@ -32,5 +32,4 @@ exports.handler = async function (event, context) {
   } catch (error) {
     console.log('Error adding document', error);
   }
-
 };
